@@ -1,0 +1,7 @@
+<div class="card" fxFlex="0 1 calc(33.3% - 32px)" *ngIf="user">
+  <img style="width: 40px; height: 40px;" class="card-img-top" src="{{user.avatar}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{user.first_name}} {{user.last_name}}</h5>
+    <p class="card-text">{{user.email}}</p>
+  </div>
+</div>
